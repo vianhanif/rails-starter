@@ -1,8 +1,4 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
+# Rails App Starter
 A starter app to create a rails app using [Rails 5](http://rubyonrails.org/), [React.js](https://facebook.github.io/react/) and PostgreSQL
 
 # To get started
