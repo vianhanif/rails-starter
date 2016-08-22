@@ -82,4 +82,4 @@ production:
   <<: *default
   database: starter_production
   username: starter
-  password: <%= ENV['starter_DATABASE_PASSWORD'] %>
+  password: <%= ENV['STARTER_DATABASE_PASSWORD'] %>
