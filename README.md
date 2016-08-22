@@ -5,6 +5,11 @@ A boilerplate to create a rails app using [Rails 5](http://rubyonrails.org/), [R
 #### To get started
 Before anything, follow the steps mentioned in [Go Rails](https://gorails.com/setup/), to start using Rails and PostgreSQL.
 
+Then do this :
+* bundle install
+* rails db:setup
+* rails server
+
 #### Added libraries
 * [active_model_serializers](https://github.com/rails-api/active_model_serializers) (replace [Jbuilder](https://github.com/rails/jbuilder))
 * [devise](https://github.com/plataformatec/devise)
@@ -19,13 +24,17 @@ Before anything, follow the steps mentioned in [Go Rails](https://gorails.com/se
 * [carrierwave-base64](https://github.com/lebedev-yury/carrierwave-base64)
 * [axlsx_rails](https://github.com/straydogstudio/axlsx_rails)
 
-Specificly for Development and Test environment:
+For Development and Test environment:
 * [rspec-rails](https://github.com/rspec/rspec-rails)
 * [faker](https://github.com/stympy/faker)
 * [ffaker](https://github.com/ffaker/ffaker)
 * [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails)
 * [rspec-collection_matchers (in Test only)](https://github.com/rspec/rspec-collection_matchers)
 * [shoulda-matchers (in Test only)](https://github.com/thoughtbot/shoulda-matchers)
+
+For Production environment:
+* [rails_12factor](https://github.com/heroku/rails_12factor)
+* [puma](https://github.com/puma/puma)
 
 Here's the snippet in the Gemfile
 ```ruby
