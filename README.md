@@ -35,8 +35,8 @@ lastly, open [localhost:3000](http://localhost:3000) in your browser.
 * [faker](https://github.com/stympy/faker)
 * [ffaker](https://github.com/ffaker/ffaker)
 * [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails)
-* [rspec-collection_matchers (in Test only)](https://github.com/rspec/rspec-collection_matchers)
-* [shoulda-matchers (in Test only)](https://github.com/thoughtbot/shoulda-matchers)
+* [rspec-collection_matchers](https://github.com/rspec/rspec-collection_matchers) (in Test only)
+* [shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers) (in Test only)
 
 #### For Production environment:
 * [rails_12factor](https://github.com/heroku/rails_12factor)
