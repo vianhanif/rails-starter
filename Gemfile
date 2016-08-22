@@ -43,7 +43,6 @@ gem 'will_paginate'
 gem 'simple_form'
 gem 'carrierwave'
 gem 'carrierwave-base64'
-gem 'fog'
 gem 'axlsx_rails'
 
 group :development, :test do
