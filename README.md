@@ -14,7 +14,7 @@ bundle install
 ```
 
 #### App Settings
-To setup the app to fit your project, go change the database name in  [config/database.yml](https://github.com/vianhanif/rails-starter/blob/master/config/database.yml) and module name in  [config/application.rb](https://github.com/vianhanif/rails-starter/blob/master/config/application.rb)(capitalized) with your project name.
+To setup the app to fit your project, go change the database name in  [config/database.yml](https://github.com/vianhanif/rails-starter/blob/master/config/database.yml) and module name in  [config/application.rb](https://github.com/vianhanif/rails-starter/blob/master/config/application.rb) with your project name.
 
 Then, do this:
 ```
