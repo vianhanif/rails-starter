@@ -1,10 +1,11 @@
-# Rails App Starter
-A starter app to create a rails app using [Rails 5](http://rubyonrails.org/), [React.js](https://facebook.github.io/react/) and PostgreSQL
+## Rails app starter
 
-# To get started
-just follow every steps mentioned in [Go Rails](https://gorails.com/setup/) to start using this repo.
+A boilerplate to create a rails app using [Rails 5](http://rubyonrails.org/), [React.js](https://facebook.github.io/react/) and PostgreSQL
 
-# Added libraries
+#### To get started
+Before anything, follow the steps mentioned in [Go Rails](https://gorails.com/setup/), to start using Rails and PostgreSQL.
+
+#### Added libraries
 * [active_model_serializers](https://github.com/rails-api/active_model_serializers) (replace [Jbuilder](https://github.com/rails/jbuilder))
 * [devise](https://github.com/plataformatec/devise)
 * [react-rails](https://github.com/reactjs/react-rails)
@@ -15,7 +16,7 @@ just follow every steps mentioned in [Go Rails](https://gorails.com/setup/) to s
 * [will_paginate](https://github.com/mislav/will_paginate)
 * [simple_form](https://github.com/plataformatec/simple_form)
 * [carrierwave](https://github.com/carrierwaveuploader/carrierwave)
-* [carrierwave-base64(https://github.com/lebedev-yury/carrierwave-base64)
+* [carrierwave-base64](https://github.com/lebedev-yury/carrierwave-base64)
 * [axlsx_rails](https://github.com/straydogstudio/axlsx_rails)
 
 Specificly for Development and Test environment:
@@ -23,8 +24,6 @@ Specificly for Development and Test environment:
 * [faker](https://github.com/stympy/faker)
 * [ffaker](https://github.com/ffaker/ffaker)
 * [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails)
-
-And lastly for Test-only environment:
 * [rspec-collection_matchers (in Test only)](https://github.com/rspec/rspec-collection_matchers)
 * [shoulda-matchers (in Test only)](https://github.com/thoughtbot/shoulda-matchers)
 
