@@ -5,17 +5,24 @@ A boilerplate to create a rails app using [Rails 5](http://rubyonrails.org/), [R
 #### To get started
 Before anything, follow the steps mentioned in [Go Rails](https://gorails.com/setup/), to start using Rails and PostgreSQL.
 
-Then do this:
+Then, do this:
 ```
 git clone https://github.com/vianhanif/rails-starter.git
 mv rails-starter _your_app_name_
 cd _your_app_name_
 bundle install
+```
+
+#### App Settings
+To setup the app to fit your project, go change the database name [config/database.yml](https://github.com/vianhanif/rails-starter/blob/master/config/database.yml) and module name [config/application.rb](https://github.com/vianhanif/rails-starter/blob/master/config/application.rb)(capitalized) with your app name.
+
+Then, do this:
+```
 rails db:setup
 rails server
 ```
 
-lastly, open [localhost:3000](http://localhost:3000) in your browser.
+Lastly, open [localhost:3000](http://localhost:3000) in your browser.
 
 > have fun :grin: ~
 
