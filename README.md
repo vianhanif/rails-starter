@@ -5,12 +5,14 @@ A boilerplate to create a rails app using [Rails 5](http://rubyonrails.org/), [R
 #### To get started
 Before anything, follow the steps mentioned in [Go Rails](https://gorails.com/setup/), to start using Rails and PostgreSQL.
 
-Then do this :
+Then do this:
 ```bash
 bundle install
 rails db:setup
 rails server
 ```
+
+lastly, open [localhost:3000](http://localhost:3000) in your browser
 
 #### Added libraries
 * [active_model_serializers](https://github.com/rails-api/active_model_serializers) (replace [Jbuilder](https://github.com/rails/jbuilder))
