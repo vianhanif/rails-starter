@@ -12,9 +12,11 @@ rails db:setup
 rails server
 ```
 
-lastly, open [localhost:3000](http://localhost:3000) in your browser
+lastly, open [localhost:3000](http://localhost:3000) in your browser.
 
-#### Added libraries
+> have fun :grin: ~
+
+## Added libraries
 * [active_model_serializers](https://github.com/rails-api/active_model_serializers) (replace [Jbuilder](https://github.com/rails/jbuilder))
 * [devise](https://github.com/plataformatec/devise)
 * [react-rails](https://github.com/reactjs/react-rails)
@@ -28,7 +30,7 @@ lastly, open [localhost:3000](http://localhost:3000) in your browser
 * [carrierwave-base64](https://github.com/lebedev-yury/carrierwave-base64)
 * [axlsx_rails](https://github.com/straydogstudio/axlsx_rails)
 
-For Development and Test environment:
+#### For Development and Test environment:
 * [rspec-rails](https://github.com/rspec/rspec-rails)
 * [faker](https://github.com/stympy/faker)
 * [ffaker](https://github.com/ffaker/ffaker)
@@ -36,7 +38,7 @@ For Development and Test environment:
 * [rspec-collection_matchers (in Test only)](https://github.com/rspec/rspec-collection_matchers)
 * [shoulda-matchers (in Test only)](https://github.com/thoughtbot/shoulda-matchers)
 
-For Production environment:
+#### For Production environment:
 * [rails_12factor](https://github.com/heroku/rails_12factor)
 * [puma](https://github.com/puma/puma)
 
