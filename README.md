@@ -8,7 +8,7 @@ Before anything, follow the steps mentioned in [Go Rails](https://gorails.com/se
 Then do this:
 ```
 git clone https://github.com/vianhanif/rails-starter.git
-mv rails-starter _your_app_name_ #rename your app repo
+mv rails-starter _your_app_name_
 cd _your_app_name_
 bundle install
 rails db:setup
