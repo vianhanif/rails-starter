@@ -12,5 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require fancybox
+//= require jquery.turbolinks
+//= require bootstrap-sprockets
+//= require bootstrap-datepicker
+//= require react
+//= require react_ujs
+//= require jasny-bootstrap.min
+//= require_tree ./react_components
 //= require_tree .
