@@ -11,13 +11,6 @@ git clone https://github.com/vianhanif/rails-starter.git
 mv rails-starter _your_app_name_
 cd _your_app_name_
 bundle install
-```
-
-#### App Settings
-To setup the app to fit your project, go change the database name in  [config/database.yml](https://github.com/vianhanif/rails-starter/blob/master/config/database.yml) and module name in  [config/application.rb](https://github.com/vianhanif/rails-starter/blob/master/config/application.rb) with your project name.
-
-Then, do this:
-```
 rails db:setup
 rails server
 ```
