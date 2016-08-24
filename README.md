@@ -3,7 +3,7 @@
 A boilerplate to create a rails app using [Rails 5](http://rubyonrails.org/), [React.js](https://facebook.github.io/react/) and PostgreSQL
 
 #### To get started
-Before anything, follow the steps mentioned in [Go Rails](https://gorails.com/setup/), to start using Rails and PostgreSQL.
+Before anything, follow the steps mentioned in [Go Rails](https://gorails.com/setup/), to start using Rails and PostgreSQL. Just make sure you install Ruby from rvm.
 
 Then, do this:
 ```
